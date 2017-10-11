@@ -4,7 +4,10 @@
   "description": "Mega sena past results scrapper",
   "main": "main.js",
   "dependencies": {
-    "scrape-it": "^3.3.3"
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "unzip": "^0.1.11"
   },
   "devDependencies": {},
   "scripts": {
@@ -13,8 +16,17 @@
   "keywords": [
     "mega",
     "sena",
-    "importer"
+    "importer",
+    "scrapper"
   ],
-  "author": "Estevão Hilst",
-  "license": "MIT"
+  "author": "Estevão Hilst <xtevan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XTevan/megaporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XTevan/megaporter/issues"
+  },
+  "homepage": "https://github.com/XTevan/megaporter#readme"
 }
